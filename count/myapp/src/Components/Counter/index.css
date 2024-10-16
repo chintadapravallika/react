@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image:Url("https://tse1.mm.bing.net/th?id=OIP.3FhiIjFg0EO637f_L2AbzgHaEK&pid=Api&P=0&h=180");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.heading{
+    display: flex;
+    font-size: 50px;
+    align-items: center;
+    color:rgb(103, 188, 221);
+}
+.para{
+   font-size: 80px;
+   color:rgb(91, 172, 205);
+   margin-top:15px ;
+   font-weight: bold;
+
+}
+.in{
+    
+    width:150px;
+    height:50px ;
+    background-color:skyblue;
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    color:black;
+    margin: 8px;
+    border-radius: 4px;
+   
+
+}

@@ -1,0 +1,71 @@
+/* Write your CSS here */
+.main{
+    background-color: #07080c;
+    text-align: center;
+    justify-content: center;
+    color: white;
+  flex-direction: column;
+  display: flex;
+  height: 100vh;
+    
+}
+.heading{
+    margin-bottom: 20px;
+    font-size: 50px;
+     font-family:  Roboto;
+
+}
+.mph{
+    width: 800px;
+    height: 600px;
+    margin-left: 370px;   
+}
+
+.para{
+    
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-size: 40px;
+  justify-content: center;
+  color: #7f8c8d;
+}
+.min{
+  font-size: 20px;
+  color: #7f8c8d;
+}
+.button{
+  display: flex;
+  justify-content: center;
+  gap:20px;
+}
+
+.rate{
+  background-color: #0b69ff;
+  color:white;
+  border: none;
+  border-radius: 5px;
+  height:40px ;
+  border: none;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Roboto';
+   margin:15px;
+   width: 150px;
+   padding: 10px;
+ 
+}
+.break{
+  background-color: black ;
+  color:white;
+  border-radius: 5px;
+  height:40px ;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Roboto';
+   margin:15px;
+   width: 150px;
+   padding: 10px;
+   border-color:#94a3b8 ;
+ 
+}
