@@ -1,0 +1,44 @@
+.main{
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    min-height: 100vh;
+    background-image:url("https://tse2.mm.bing.net/th?id=OIP.3kl6H7OUiZcQM-X5GVSRKwHaF7&pid=Api&P=0&h=180") ;
+}
+.sub{
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 350px;
+    margin-top: 200px;
+    margin-left: 100px; 
+}
+.heading{
+    color: blue;
+
+}
+.para{
+    font-size: 20px; 
+
+}
+.button{
+   
+    border: none;
+    height: 100px;
+    width: 120px;
+    color: white;
+    background-color: blue;
+    font-family: 'Roboto';
+    font-size: 25px;
+    border-radius: 5px;
+    
+}
+.para1{
+   color: blue;
+   font-family: 'Roboto';
+    font-size: 45px;
+}

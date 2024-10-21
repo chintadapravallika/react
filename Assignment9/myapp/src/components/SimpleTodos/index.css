@@ -1,0 +1,18 @@
+.main{
+   
+    
+    max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color:white;
+  border-radius: 10px; 
+  margin-top: 60px;
+}
+.heading{
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ff7f50;
+  margin-bottom: 20px;
+}
+

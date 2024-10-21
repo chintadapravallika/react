@@ -30,3 +30,14 @@
   color: #594d6d;
   margin: 0px;
 }
+.button1{
+  
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border-radius: 12px;
+  height: 40px;
+  margin-left: 20px;
+  width: 80px;
+  background-color:rgb(210, 218, 224);
+}

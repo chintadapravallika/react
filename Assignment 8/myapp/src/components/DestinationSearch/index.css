@@ -1,0 +1,12 @@
+.img{
+ flex-wrap: wrap;
+ display: flex;
+ gap:20px;
+} 
+.button{
+    height:30px;
+    width: 300px;
+    border: none;
+    background-color: rgb(244, 238, 238);
+    border-radius: 5px;
+}

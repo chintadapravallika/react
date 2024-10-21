@@ -1,9 +1,11 @@
 import './index.css'
 
 const UserProfile = (props) => {
-    const {userDetails,key}=props
-    const {imageUrl,name,role,}=userDetails
-    console.log(key)
+    const {userDetails,deleteUser}=props
+    const {imageUrl,name,role,uniqueNo}=userDetails
+    const onDelete=()=>{
+      deleteUser(uniqueNo)
+    };
 
     return(
         <div className="user-card-container">
@@ -12,6 +14,9 @@ const UserProfile = (props) => {
             <h1 className='user-name'>{name}</h1>
             <p className='user-description'>{role}</p>
           </div>
+
+          <button type ="button" onClick={onDelete} className='button1'>Delete</button>
+      
         </div>
       );
 }

@@ -1,0 +1,28 @@
+ 
+.main1{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.heading1{
+    font-size: 1.1rem;
+    color: #333;
+}
+.button{
+    
+ background-color: white;
+ border: 2px solid #ff7f50;
+ color: #ff7f50;
+ padding: 5px 10px;
+ border-radius: 5px;
+ font-size: 0.9rem;
+}
+body{
+    
+background-color:#ffc2a0;
+}
